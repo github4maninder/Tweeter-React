@@ -3,10 +3,10 @@ import Tweet from "./Tweet";
 
 function TweetList(props) {
   return (
-    <article>
+    <section className=" tweets">
       <Tweet />
       <Tweet />
-    </article>
+    </section>
   );
 }
 

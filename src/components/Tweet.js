@@ -11,38 +11,36 @@ function Tweet() {
   };
 
   return (
-    <section className="tweets">
-      <article class="tweet">
-        <header class="tweet--header">
-          <img class="tweet--avatar" src={tweet.avatar} alt="" />
-          <h2 class="tweet--name">{tweet.lastName}</h2>
-          <small class="tweet--handle">{tweet.handle}</small>
-        </header>
+    <article className="tweet">
+      <header className="tweet--header">
+        <img className="tweet--avatar" src={tweet.avatar} alt="" />
+        <h2 className="tweet--name">{tweet.lastName}</h2>
+        <small className="tweet--handle">{tweet.handle}</small>
+      </header>
 
-        <div class="tweet--body">
-          <p>{tweet.body}</p>
-        </div>
+      <div class="tweet--body">
+        <p>{tweet.body}</p>
+      </div>
 
-        <footer class="tweet--footer">
-          <small class="footer--age">
-            {tweet.age}
-            <small>
-              <span class="footer--actions">
-                <a href={() => false}>
-                  <i class="fa fa-flag"></i>
-                </a>
-                <a href={() => false}>
-                  <i class="fa fa-retweet"></i>
-                </a>
-                <a href={() => false}>
-                  <i class="fa fa-heart"></i>
-                </a>
-              </span>
-            </small>
+      <footer class="tweet--footer">
+        <small class="footer--age">
+          {tweet.age}
+          <small>
+            <span class="footer--actions">
+              <a href={() => false}>
+                <i class="fa fa-flag"></i>
+              </a>
+              <a href={() => false}>
+                <i class="fa fa-retweet"></i>
+              </a>
+              <a href={() => false}>
+                <i class="fa fa-heart"></i>
+              </a>
+            </span>
           </small>
-        </footer>
-      </article>
-    </section>
+        </small>
+      </footer>
+    </article>
   );
 }
 
