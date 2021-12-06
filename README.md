@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Tweeter React SPA built Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Single Page App (SPA) Tweeter built with HTML, CSS, JS, jQuery and AJAX and Tweeter React.
+
+!["IndexPage"](react-version/public/indexPage.JPG)
 
 ## Available Scripts
 
