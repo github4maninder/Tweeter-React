@@ -6,6 +6,7 @@ A Single Page App (SPA) Tweeter built with HTML, CSS, JS, jQuery and AJAX and Tw
 
 !["indexPage"](public/indexPage.JPG)
 
+
 ## Available Scripts
 
 In the project directory, you can run:
