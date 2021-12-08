@@ -2,6 +2,8 @@
 
 A Single Page App (SPA) Tweeter built with HTML, CSS, JS, jQuery and AJAX and Tweeter React.
 
+### Home Page
+
 !["indexPage"](public/indexPage.JPG)
 
 ## Available Scripts
